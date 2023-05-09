@@ -12,6 +12,7 @@
     display: grid;
     gap: 4rem;
     grid-template-columns: 1fr;
+    padding-bottom: 4rem;
 }
 
 /* .text */
