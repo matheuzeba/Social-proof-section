@@ -28,3 +28,8 @@
     font-size: 4rem;
     color: var( --Very-Dark-Magenta);
 }
+
+.component .text p {
+    font-size: 2rem;
+    color: var(--Dark-Grayish-Magenta);
+}
