@@ -1,0 +1,9 @@
+.page {
+    display: grid;
+    padding: 4rem 2rem;
+    margin: auto;
+    
+    width: 100%;
+    height: inherit;
+    max-width: 80%;
+}
