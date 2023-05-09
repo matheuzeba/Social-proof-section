@@ -1,0 +1,55 @@
+@media (min-width: 64em) {
+    .page {
+        display: grid;
+        align-items: center;
+        padding: 9rem;
+    }
+
+    .span-2 {
+        grid-column: span 2;
+    }
+    .component {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .component .grid.text {
+        text-align: start;
+    }
+
+    .component .ratings {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        align-items: end;
+
+        transform: translateY(3rem);
+    }
+
+    .component .ratings .rate {
+        flex-direction: row;
+        height: 5rem;
+        width: 100%;
+        max-width: 75%;
+    }
+
+    .component .ratings .rate:nth-child(1) {
+        transform: translateX(-10rem);
+    }
+
+    .component .ratings .rate:nth-child(2) {
+        transform: translateX(-5rem);
+    }
+
+    .reviews {
+        padding: 3rem;
+    }    
+
+    .reviews.irene{
+        transform: translateY(5rem);
+    }    
+
+    .reviews.anne{
+        transform: translateY(10rem);
+    }    
+}
