@@ -6,11 +6,25 @@
 
     width: 100%;
     height: inherit;
-    max-width: 80%;
 }
 
 /* .component */
 .component {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+/* .text */
+
+.component .text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    text-align: center;
+}
+
+.component .text h1 {
+    font-size: 4rem;
+    color: var( --Very-Dark-Magenta);
 }
