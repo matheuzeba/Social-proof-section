@@ -42,14 +42,22 @@
 
 .component .ratings .rate {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    padding: 1rem;
-    background-color: gray;
+
+    padding: 2rem;
+    background-color: var(--Light-Grayish-Magenta);
     gap: 1rem;
 }
 
 .component .ratings .rate .stars span{
     display: flex;
+    gap: 0.5rem;
+}
+
+.component .ratings .rate p {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--Very-Dark-Magenta);
 }
