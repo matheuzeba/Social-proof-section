@@ -16,19 +16,19 @@
 
 /* .text */
 
-.component .text {
+.component .grid.text {
     display: grid;
     gap: 2rem;
 
     text-align: center;
 }
 
-.component .text h1 {
+.component .grid.text h1 {
     font-size: 4rem;
     color: var( --Very-Dark-Magenta);
 }
 
-.component .text p {
+.component .grid.text p {
     font-size: 2rem;
     font-weight: 500;
     color: var(--Dark-Grayish-Magenta);
@@ -60,4 +60,16 @@
     font-size: 2rem;
     font-weight: 700;
     color: var(--Very-Dark-Magenta);
+}
+
+/* reviews */
+.reviews .profile-picture {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.reviews .profile-picture img {
+    max-width: 15%;
+    border-radius: 100%;
 }
