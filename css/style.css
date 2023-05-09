@@ -1,6 +1,5 @@
 /* .page */
 .page {
-    display: grid;
     padding: 4rem 2rem;
     margin: auto;
 
@@ -11,14 +10,14 @@
 /* .component */
 .component {
     display: grid;
+    gap: 4rem;
     grid-template-columns: 1fr;
 }
 
 /* .text */
 
 .component .text {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 2rem;
 
     text-align: center;
@@ -31,5 +30,26 @@
 
 .component .text p {
     font-size: 2rem;
+    font-weight: 500;
     color: var(--Dark-Grayish-Magenta);
+}
+
+/* ratings */
+.component .ratings {
+    display: grid;
+    gap: 2rem;
+}
+
+.component .ratings .rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 1rem;
+    background-color: gray;
+    gap: 1rem;
+}
+
+.component .ratings .rate .stars span{
+    display: flex;
 }
